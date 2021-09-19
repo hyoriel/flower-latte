@@ -20,7 +20,7 @@ body {
         color: rgb(243, 158, 215);
         font-size: 1.2em;
 
-        span{
+        span {
             color: var(--primary-color);
         }
     }
@@ -161,7 +161,7 @@ h2 {
     font-size: 2em;
 }
 
-label{
+label {
     display: block;
     font-size: 1.2em;
     font-weight: 200;
@@ -203,10 +203,10 @@ nav.menu-btn {
 nav {
     position: fixed;
     z-index: 999;
-    width: 66%;
+    width: 55%;
     right: 0;
     top: 0;
-    background: #20272E;
+    background: #302317;
     height: 100vh;
     padding: 1em;
 
@@ -231,7 +231,7 @@ nav {
     }
 }
 
-.mobile-menu-exit{
+.mobile-menu-exit {
     float: right;
     margin: .5em;
     cursor: pointer;
@@ -246,6 +246,7 @@ nav {
     .navbar .container {
         display: grid;
         grid-template-columns: 180px auto;
+        justify-content: unset;
     }
 
     .navbar nav {
@@ -277,7 +278,7 @@ nav {
 
         li.go-premium-cta a{
             color: var(--primary-color);
-            border: 3p solid var(--primary-color);
+            border: 3px solid var(--primary-color);
             font-weight: bold;
             border-radius: 5em;
             margin-top: -.2em;

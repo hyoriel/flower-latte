@@ -201,10 +201,10 @@ nav.menu-btn {
 nav {
   position: fixed;
   z-index: 999;
-  width: 66%;
+  width: 55%;
   right: 0;
   top: 0;
-  background: #20272E;
+  background: #302317;
   height: 100vh;
   padding: 1em;
 }
@@ -241,6 +241,9 @@ nav li a:hover {
     display: grid;
     -ms-grid-columns: 180px auto;
         grid-template-columns: 180px auto;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
   }
   .navbar nav {
     display: -webkit-box;
@@ -273,7 +276,7 @@ nav li a:hover {
   }
   .navbar nav li.go-premium-cta a {
     color: var(--primary-color);
-    border: 3p solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     font-weight: bold;
     border-radius: 5em;
     margin-top: -.2em;
